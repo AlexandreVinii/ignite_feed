@@ -1,18 +1,10 @@
 .header {
     background: #333;
-    height: 1%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     padding: 1.25rem 0;
 }
 
-.header li {
-    display: inline;
-    list-style-type: none;
-}
-.header a {
-    justify-content: space-between;
-    color: #fff;
-    text-decoration: none;
+.header img {
+    height: 2rem;
 }

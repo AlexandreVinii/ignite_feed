@@ -8,7 +8,6 @@ interface PostProps {
 
 export const Post: React.FC<PostProps> = (props) => {
     // Implement the component logic here
-    console.log(props);
     return (
         <div>
             <strong>{props.author}</strong>

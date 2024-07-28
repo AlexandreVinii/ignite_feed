@@ -5,6 +5,8 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   build: {
-    sourcemap: true,
+    sourcemap: true, // Enable source maps
+    cssCodeSplit: true, // Enable CSS code splitting
+    minify: 'esbuild', // Use esbuild for minification
   },
 })

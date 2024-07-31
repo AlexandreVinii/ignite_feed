@@ -11,7 +11,7 @@ export const Comment: React.FC<CommentProps> = () => {
     return (
 
         <div className={styles.comment}>
-            <Avatar src="https://github.com/dani-uxdev.png" alt='' />
+            <Avatar hasBorder={false} src="https://github.com/dani-uxdev.png" alt='' />
 
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
